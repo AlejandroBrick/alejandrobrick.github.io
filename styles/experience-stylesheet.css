@@ -10,29 +10,32 @@ body {
 }
 
 /* fonts */
-
 .title {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 2.25vw;
-    @media (max-width: 480px)
+    text-align: center;
+    font-size: 7vw;
 }
 
-h1 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    @media (max-width: 480px)
-  }
+@media screen and (min-width: 900px){
+    .title {
+        font-size: 50px;
+    }
+}
+
 
 .experience-title {
     color: white;
     font-family: "Roboto", sans-serif;
+    font-size: 2vw;
     text-align: center;
-    padding: 1em;
-    font-size: 1.75vw;
-    @media (max-width: 480px)
-}
+    padding-top: 1em;
+  }
+  @media screen and (min-width: 900px) {
+    .experience-title h2 {
+       font-size: 40px;
+    }
+  }
 
 h4 {
     color: white;
@@ -41,11 +44,16 @@ h4 {
     @media (max-width: 480px)
   }
 
-p {
+  p {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1.25vw;
-    @media (max-width: 600px)
-}
+    font-size: 2.5vw;
+    padding: 1em;
+  }
+  @media screen and (min-width: 900px) {
+    p {
+       font-size: 20px;
+    }
+  }
 
   
