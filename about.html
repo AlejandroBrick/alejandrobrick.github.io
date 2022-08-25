@@ -43,8 +43,16 @@
         </div>
     </nav>
 
-
-    <div class="main w-75 mx-auto py-4">
+    <style>
+        @media (min-width : 1000px) {
+            .main {
+              display: block !important;
+              width: 80rem !important;
+              flex:none !important;
+            }
+        }
+    </style>
+    <div class="main p-4 mx-auto">
         <div class="card text-bg-dark bg-opacity-100">
             <!-- title -->
             <div>
@@ -76,7 +84,7 @@
                         </p>
                     </div>
 
-                    <img src="imgs/alex2.jpg" class="w-100 p-4" alt="Alex 2">
+                    <img src="imgs/alex2.jpg" class="w-100 py-4" alt="Alex 2">
                 </div>
 
                 <div class="px-4">

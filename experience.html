@@ -45,13 +45,21 @@
         </div>
     </nav>
 
-    <div class="main py-4 mx-auto w-75">
+    <style>
+        @media (min-width : 1000px) {
+            .main {
+              display: block !important;
+              width: 80rem !important;
+              flex:none !important;
+            }
+        }
+    </style>
+    <!-- main -->
+    <div class="main p-4 mx-auto">
         <div class="card text-bg-dark bg-opacity-100">
             <div class="experience p-2">
                 <!-- title -->
-                <div>
-                    <h1 class="title text-center p-4">Experience</h1>
-                </div>
+                <div class="title text-center p-4">Experience</div>
         
                 <!-- main -->
 
